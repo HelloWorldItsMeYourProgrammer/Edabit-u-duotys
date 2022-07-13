@@ -1,10 +1,12 @@
 'use strict'
 
-function addUp(num) {
-	let sum = 0;
-	for (i=0; i<=num;i++){
-	sum = sum+i;
+function matchHouses(step) {
+	if (step === 0) {
+		return 0;
+	}else if (step===1){
+		return 6;
 	}
-	return sum;
+	else {
+		return (step*6+1)-step;
+	}
 }
-    
