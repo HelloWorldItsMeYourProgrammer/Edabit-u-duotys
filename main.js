@@ -1,7 +1,7 @@
 'use strict'
 
-function minMax(arr) {
-    return [Math.min(...arr), Math.max(...arr)];
-    }
+function addition(a, b) {
+	return a+b;
+}
 
     
