@@ -1,6 +1,6 @@
 'use strict'
 
-function convert(minutes) {
-	let seconds = minutes * 60;
+function howManySeconds(hours) {
+	let seconds = hours*60**2;
 	return seconds;
 }
