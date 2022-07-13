@@ -1,5 +1,5 @@
 'use strict'
 
-function calcAge(age) {
-	return age*365;
+function remainder(x, y) {
+	return x%y;
 }
