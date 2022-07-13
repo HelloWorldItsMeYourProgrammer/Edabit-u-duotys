@@ -1,5 +1,6 @@
 'use strict'
 
-function hello() {
-	return "hello edabit.com"
+function convert(minutes) {
+	let seconds = minutes * 60;
+	return seconds;
 }
