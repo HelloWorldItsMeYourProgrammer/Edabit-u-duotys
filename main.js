@@ -1,6 +1,7 @@
 'use strict'
 
-function howManySeconds(hours) {
-	let seconds = hours*60**2;
-	return seconds;
-}
+function minMax(arr) {
+    return [Math.min(...arr), Math.max(...arr)];
+    }
+
+    
