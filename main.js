@@ -1,10 +1,8 @@
 'use strict'
 
-function addUp(num) {
-	let sum = 0;
-	for (i=0; i<=num;i++){
-	sum = sum+i;
-	}
-	return sum;
+function minMax(arr) {
+	arr.sort(function(a,b){
+  return a - b;
+})
+	return [arr[0], arr[arr.length-1]];
 }
-    
